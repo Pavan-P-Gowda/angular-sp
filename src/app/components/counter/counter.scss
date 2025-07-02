@@ -1,0 +1,15 @@
+strong{
+    background-color: black;
+    color: white;
+}
+.conter{
+    button{
+        margin: 10px;
+        background-color: black;
+        color: white;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+}
